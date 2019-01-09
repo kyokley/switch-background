@@ -7,4 +7,4 @@ WALLPAPERS=($WALLPAPER_DIR/*.jpg)
 
 FILE=${WALLPAPERS[$RANDOM % ${#WALLPAPERS[@]}]}
 
-nitrogen --set-scaled "$FILE"
+nitrogen --save --set-scaled "$FILE"
